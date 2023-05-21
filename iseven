@@ -1,0 +1,10 @@
+function isEvenOrOdd(number) {
+  if (number % 2 === 0) {
+    console.log(number + " является четным числом");
+  } else {
+    console.log(number + " является нечетным числом");
+  }
+}
+
+const num = 7;
+isEvenOrOdd(num);
